@@ -46,7 +46,7 @@ class App extends Component {
   }
 
   render() {
-    console.log('current user....', this.props.currentUser);
+    // console.log('current user....', this.props.currentUser);
     return (
       <div className="App" currentUser={this.state.currentUser}>
         <Header />
